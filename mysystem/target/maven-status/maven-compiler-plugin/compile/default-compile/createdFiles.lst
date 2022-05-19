@@ -1,0 +1,8 @@
+com\jason\util\SqlSessionFactoryUtils.class
+com\jason\service\BrandService.class
+com\jason\mapper\BrandMapper.class
+com\jason\web\servlet\old\SelectAllServlet.class
+com\jason\service\impl\BrandServiceimpl.class
+com\jason\web\servlet\BrandServlet.class
+com\jason\pojo\Brand.class
+com\jason\web\servlet\BaseServlet.class
