@@ -92,7 +92,7 @@
 </template>
 
 <script >
-import { ref } from "vue";
+// import { ref } from "vue";
 import TestVue from "./views/TestVue.vue"
 // import { Menu as IconMenu, Message, Setting } from '@element-plus/icons-vue'
 export default {
@@ -110,8 +110,8 @@ export default {
     };
   },
   mounted(){
-    this.tableData= ref(Array.from({ length: 20 }).fill(this.item));
-    console.log(this.tableData);
+    // this.tableData= ref(Array.from({ length: 20 }).fill(this.item));
+    // console.log(this.tableData);
   }
 };
 
@@ -127,10 +127,13 @@ export default {
 .layout-container-demo {
   width: 100%;
   height: 100%;
-  position: relative;
+  margin: 0;
+  padding-right: 0.5%;
+  padding-bottom: 1%;
+  position: fixed;
 }
 .layout-container-demo .el-header {
-  position: relative;
+  /* position: relative; */
   background-color: var(--el-color-primary-light-7);
   color: var(--el-text-color-primary);
 }
