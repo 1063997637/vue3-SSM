@@ -1,7 +1,7 @@
-# vue3+javaweb
+# vue3+javaweb(前后端分离)
 
 #### 介绍
-vue3+javaWeb的后台管理
+Maven结构下vue3+javaWeb的后台管理()增删改查
 
 #### 软件架构
 软件架构说明
@@ -11,29 +11,17 @@ vue3+javaWeb的后台管理
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  前端使用vue3 CLI,确保环境有npm,和vue脚手架,vui3根目录npm install即可安装所有前端模块
+2.  后端java mysql8+mybatis+tomcat7,依赖和插件都在在pom中刷新自动下载到本地仓库即可
+3.  数据库没有放在该项目中,而且需要自己根据需要修改mybatis-config配置
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  同上
+2.  UI有操作指引
+3.  后台文件中针对跨域问题只编写了一个添加响应头的解决方法,可基本满足本地运行需要
+4.  个人学习编写使用
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  完全由本人独立完成
